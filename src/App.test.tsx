@@ -1,4 +1,4 @@
-import { fireEvent, render } from '@testing-library/react'
+import {  render } from '@testing-library/react'
 import { describe , it, expect} from 'vitest'
 import { addTodo , App, removeTodo, todos} from './App'
 
