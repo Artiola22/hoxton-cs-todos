@@ -10,7 +10,21 @@ export function addTodo (todos: Todo[], title: string) {
   const newTodo = { id: todos.length + 1, title: title }
   return [...todos, newTodo]
 }
-
+export const todos: Todo[] =[
+  {
+    id: 1,
+    title: 'Learn Node'
+},
+{
+    id: 2,
+    title: 'Learn Math'
+}
+,
+{
+    id: 3,
+    title: 'Learn testing'
+}
+]
 export function removeTodo (todos: Todo[], id: number) {
   return todos.filter(todo => todo.id !== id)
 }
